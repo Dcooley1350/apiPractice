@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>Project</title>
+    <title>Random Gif Generator</title>
   </head>
   <body>
-    <h1>This is my project</h1>
+    <div class="container">
+      <h1>Enjoy a Random Gif</h1>
+      <label for="location">Enter a location:</label>
+      <input id="location" type="text">
+      <button class="btn-success" id="weatherLocation">Get Current Temperature and Humidity</button>
+      <div class="errors"></div>
+      <div class="showHumidity"></div>
+      <div class="showTemp"></div>
+    </div>
   </body>
 </html>
